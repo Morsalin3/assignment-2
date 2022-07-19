@@ -1,0 +1,17 @@
+
+.header-section{
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background-color: #161616;
+    border-radius: 30px;
+}
+.description h1, p{
+    color: #ffffff;
+}
