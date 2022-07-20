@@ -91,11 +91,15 @@ body{font-family: 'Poppins', sans-serif;}
     font-weight: 700;
  
 }
-.menu a:hover{
+a.blog-btn{
+    background-color: red;
+    color: #ffffff;
+}
+/* .menu a:hover{
     background-color: red;
     color: #ffffff;
     
-}
+} */
 
 
 .blog-section{
@@ -107,28 +111,35 @@ body{font-family: 'Poppins', sans-serif;}
 
 }
 .blogs{
-    box-sizing: border-box;
+   box-sizing: border-box;
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 10px;
 }
+
 .blog{
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     border: 1px solid #E8E8E8;
-    border-top: none;
     border-radius: 8px;
+    box-sizing: border-box;
+}
+.blog-flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    margin: 0 10px;
 }
 .blog-desc{
-    margin-left: 20px; 
+    text-align: center; 
     margin-bottom: 15px;
 }
 .blog-desc p{
     color: #000000;
 }
 .blog img{
-    margin-bottom: 15px;
+    margin-top: 15px;
     width: 100%;
 }
 .blog a{
@@ -140,7 +151,7 @@ body{font-family: 'Poppins', sans-serif;}
     margin-top: 15px;
     
 }
-.font-icon{
+/* .font-icon{
     display: flex;
     
 }
@@ -149,7 +160,7 @@ body{font-family: 'Poppins', sans-serif;}
 }
 span{
     margin-left: 10px;
-}
+} */
 .blog-menu{
     display: flex;
     justify-content: center;
@@ -167,11 +178,12 @@ span{
 }
 
 /* main section end here  */
+
 /* footer start here  */
 
 .footer-section{
     width: 100%;
-    height: 300px;
+    height: 350px;
     background-color: #000000;
     color: #ffffff;
     text-align: center;
@@ -193,4 +205,35 @@ span{
     color: #ffffff;
     margin-left: 20px;
     opacity: .8;
+    margin-bottom: 20px;
 }
+.media-icon{
+    margin-top: 20px;
+}
+.media-icon a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.fa-facebook{
+    color: #4AA9F4;
+}
+.fa-youtube{
+    color: red;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+
+
+
+
+/*------------------------
+    media queries
+-------------------------*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 688px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 688px) and (max-width:992px){}
