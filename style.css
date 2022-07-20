@@ -4,7 +4,8 @@
 body{font-family: 'Poppins', sans-serif;}
 
 .container{
-    width: 80%;
+    box-sizing: border-box;
+    width: 1100px;
     margin: 0 auto;
 }
 .header-section{
@@ -50,28 +51,121 @@ body{font-family: 'Poppins', sans-serif;}
 
 /* start main section here  */
 .main-section{
+    box-sizing: border-box;
     width: 100%;
-    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 80px;
+    gap: 10px;
+}
+.nav-section{
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
+    height: 300px;
+    width: 275px;
 }
 .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cadetblue;
-    width: 25%;
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.menu a{
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 15px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+ 
+}
+.menu a:hover{
+    background-color: red;
+    color: #ffffff;
+    
 }
 
+
 .blog-section{
-    width: 75%;
-    background-color: red;
+    box-sizing: border-box;
+     width: 100%;
+    /* grid-column: 2/-1; */
     /* display: grid;
     grid-template-columns: repeat(3, 1fr); */
+
 }
 .blogs{
-    /* background-color: coral;
-    width: 200px;
-    height: 200px; */
+    box-sizing: border-box;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
+}
+.blog{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #E8E8E8;
+    border-top: none;
+    border-radius: 8px;
+}
+.blog-desc{
+    margin-left: 20px; 
+    margin-bottom: 10px;
+}
+.blog-desc p{
+    color: #000000;
+}
+.blog img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.blog a{
+    text-decoration: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #000000;
+    margin-top: 15px;
+    
+}
+.font-icon{
+    display: flex;
+    
+}
+/* .fa-regular{} */
+.fa-clock, .fa-message{
+    margin-right: 25px;
+}
+span{
+    margin-left: 10px;
+}
+/* footer start here  */
+
+.footer-section{
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer{
+    padding-top: 80px;
+    margin-bottom: 50px;
+}
+.footer-menu a{
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+
 }
