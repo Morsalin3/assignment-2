@@ -62,8 +62,9 @@ body{font-family: 'Poppins', sans-serif;}
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 250px;
     width: 275px;
+  
 }
 .menu {
     display: flex;
@@ -73,6 +74,7 @@ body{font-family: 'Poppins', sans-serif;}
     background-color: #000000;
     padding: 20px;
     border-radius: 5px;
+
 
 }
 .menu a{
@@ -120,7 +122,7 @@ body{font-family: 'Poppins', sans-serif;}
 }
 .blog-desc{
     margin-left: 20px; 
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 .blog-desc p{
     color: #000000;
@@ -142,13 +144,29 @@ body{font-family: 'Poppins', sans-serif;}
     display: flex;
     
 }
-/* .fa-regular{} */
 .fa-clock, .fa-message{
     margin-right: 25px;
 }
 span{
     margin-left: 10px;
 }
+.blog-menu{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    display: none;
+}
+.blog-menu a {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #ffffff;
+   
+    text-align: center;
+}
+
+/* main section end here  */
 /* footer start here  */
 
 .footer-section{
@@ -161,11 +179,18 @@ span{
 }
 .footer{
     padding-top: 80px;
-    margin-bottom: 50px;
+    text-align: center;
 }
+.border{
+    border-bottom: 1px solid #ffffff;
+    opacity: .4;
+    width: 80%;
+    margin: 50px auto;
+}
+
 .footer-menu a{
-    display: flex;
     text-decoration: none;
     color: #ffffff;
-
+    margin-left: 20px;
+    opacity: .8;
 }
