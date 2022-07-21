@@ -27,10 +27,11 @@ body{font-family: 'Poppins', sans-serif;}
     border-radius: 30px;
     padding: 20px;
     min-height: 400px;
+    box-sizing: border-box;
 
 }
 .description{
-    width: 50%;
+    width: 100%;
 }
 .description h1{
     margin-top: 0px;
@@ -59,8 +60,11 @@ body{font-family: 'Poppins', sans-serif;}
     align-items: center;
     border-radius: 5px;
 }
+.ban-image{
+    width: 100%;
+}
 .ban-image img{
-    width: 125%;
+    width: 100%;
     margin-bottom: -24px;
     /* margin-left: 25px; */
 }
