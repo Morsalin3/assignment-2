@@ -276,8 +276,11 @@ span{
         text-align: center;
         
     }
+    .banner-desc{
+        width: 70%;
+    }
     .description p{
-        text-align: justify;
+        text-align: center;
     }
     .description a,.fa-angle-right{ 
         font-size: 20px;
